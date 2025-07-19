@@ -1,0 +1,27 @@
+.flex-container{
+    display:flex;
+    font-family: sans-serif;
+    color: white;
+}
+#navy{
+    background-color: #1f2937;
+    height: 550px;
+    width: 6000px;
+}
+.box{
+    height: 550px;
+    width: 600px;
+}
+.number1{
+    font-weight: bold;
+}
+
+h1{
+    font-weight: bolder;
+    padding-left: 200px;
+
+}
+p{
+    font-weight: light;
+    padding-left: 200px;
+}
