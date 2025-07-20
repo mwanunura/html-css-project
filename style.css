@@ -1,27 +1,27 @@
 .flex-container{
-    display:flex;
-    font-family: sans-serif;
+    display: flex;
     color: white;
+    font-family: sans-serif;
+}
+.box {
+    width: 1507px;
+    height: 500px;
 }
 #navy{
     background-color: #1f2937;
-    height: 550px;
-    width: 6000px;
-}
-.box{
-    height: 550px;
-    width: 600px;
+    padding-left: 200px;
+    font-size: medium;
 }
 .number1{
+    margin-bottom: 50px;
     font-weight: bold;
+    font-size: large;
+    margin-top: 25px;
 }
-
-h1{
+.external{
     font-weight: bolder;
-    padding-left: 200px;
-
+    font-size: larger;
 }
-p{
-    font-weight: light;
-    padding-left: 200px;
+.img{
+    text-align: center;
 }
