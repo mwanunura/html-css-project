@@ -1,27 +1,72 @@
 .flex-container{
     display: flex;
+    flex-direction: row;
     color: white;
-    font-family: sans-serif;
+    font-family: roboto,sans-serif;
 }
 .box {
-    width: 1507px;
-    height: 500px;
+    width: 1540px;
+    height: 570px;
 }
 #navy{
     background-color: #1f2937;
     padding-left: 200px;
     font-size: medium;
 }
-.number1{
-    margin-bottom: 50px;
-    font-weight: bold;
-    font-size: large;
-    margin-top: 25px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 .external{
     font-weight: bolder;
-    font-size: larger;
+    font-size: xx-large;
+    margin-top: 50px;
+    color: violet;
 }
-.img{
+.para{
+    font-weight: light;
+    margin-top: 50px;
+}
+.love{
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-top: -240px;
+    margin-right: 90px;
+}
+.signBtn{
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    padding: 10px 8px;
+    width:150px;
+    margin-top: 50px;
+    
+}
+
+.signBtn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+ 
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
     text-align: center;
 }
+.menu a:hover {
+    background-color: black;
+}
+.menu li {
+    float: left;
+}
+
