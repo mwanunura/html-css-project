@@ -1,12 +1,14 @@
 .flex-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: white;
     font-family: roboto,sans-serif;
 }
 .box {
-    width: 1540px;
+    width: 1300px;
     height: 570px;
+    margin: 0px;
+    padding: 0px;
 }
 #navy{
     background-color: #1f2937;
@@ -68,5 +70,72 @@ header{
 }
 .menu li {
     float: left;
+}
+.food{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: -10px;
+    background-color: #f9faf8;
+}
+.hello{
+    background-color: #f9faf8;
+}
+.pic2{
+    height: 220px;
+    width: 200px;
+    margin-left: 100px;
+    border: 4px solid rgb(22, 47, 237);
+    border-radius: 10px; 
+}
+.pic3{
+    height: 220px;
+    width: 200px;
+    margin-left: 100px;
+    border: 4px solid rgb(22, 47, 237);
+    border-radius: 10px; 
+}
+.pic4{
+    height: 220px;
+    width: 200px;
+    margin-left: 100px;
+    border: 4px solid rgb(22, 47, 237);
+    border-radius: 10px; 
+}
+.pic5{
+    height: 220px;
+    width: 220px;
+    margin-left: 100px;
+    border: 4px solid rgb(22, 47, 237);
+    border-radius: 10px;
+}
+
+.goof{
+    height: 220px;
+}
+.bye{
+    font-size: smaller;
+}
+p{
+    font-size: large;
+    color: black;
+    margin-top: 100px;
+    background-color: #e5e7eb;
+    font-weight: 100;
+    padding: 100px;
+}
+.yeah{
+    color: black;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.see{
+    color: white;
+    background-color:rgb(62, 82, 237);
+    padding: 50px;
+    background-position: center;
+    border-radius: 20px;
+    text-align: center;
 }
 
