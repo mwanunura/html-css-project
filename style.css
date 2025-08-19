@@ -4,6 +4,7 @@ body{
     width: 100%;
     height: 0%;
     overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .flex-container{
     display: flex;
@@ -22,6 +23,9 @@ body{
     background-color: #1f2937;
     padding-left: 200px;
     font-size: medium;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
     display: flex;
